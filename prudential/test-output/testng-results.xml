@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45574" started-at="2018-11-16T11:06:46Z" finished-at="2018-11-16T11:07:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45574" started-at="2018-11-16T11:06:46Z" finished-at="2018-11-16T11:07:32Z">
+      <class name="com.pagelibrary.com.prudential.TestExecution">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="extentreport" is-config="true" duration-ms="236" started-at="2018-11-16T11:06:46Z" finished-at="2018-11-16T11:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="before" is-config="true" duration-ms="6" started-at="2018-11-16T11:06:47Z" finished-at="2018-11-16T11:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.prudential.TestExecution.valid_launch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="valid_launch()[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="valid_launch" duration-ms="20216" started-at="2018-11-16T11:06:47Z" finished-at="2018-11-16T11:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_launch -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="before" is-config="true" duration-ms="0" started-at="2018-11-16T11:07:07Z" finished-at="2018-11-16T11:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.prudential.TestExecution.verify_login() throws java.lang.InterruptedException,atu.testrecorder.exceptions.ATUTestRecorderException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="verify_login" duration-ms="10104" started-at="2018-11-16T11:07:07Z" finished-at="2018-11-16T11:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="before" is-config="true" duration-ms="1" started-at="2018-11-16T11:07:17Z" finished-at="2018-11-16T11:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.prudential.TestExecution.verify_HomePage() throws java.lang.InterruptedException,java.awt.AWTException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verify_HomePage()[pri:2, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="verify_HomePage" duration-ms="6231" started-at="2018-11-16T11:07:17Z" finished-at="2018-11-16T11:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HomePage -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="before" is-config="true" duration-ms="1" started-at="2018-11-16T11:07:23Z" finished-at="2018-11-16T11:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.prudential.TestExecution.verify_OICQuestionnaire(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="verify_OICQuestionnaire(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="verify_OICQuestionnaire" duration-ms="8533" started-at="2018-11-16T11:07:23Z" data-provider="OICQuestionnaire" finished-at="2018-11-16T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16-10-1990,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marriage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bachelor degree]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Government officer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Most necessary]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:68)
+at com.pagelibrary.com.prudential.Generic.dropdown_handle(Generic.java:18)
+at com.pagelibrary.com.prudential.Repository.OICQuestionnaire(Repository.java:288)
+at com.pagelibrary.com.prudential.TestExecution.verify_OICQuestionnaire(TestExecution.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_OICQuestionnaire -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.pagelibrary.com.prudential.TestExecution@2d928643]" name="endReport" is-config="true" duration-ms="501" started-at="2018-11-16T11:07:32Z" finished-at="2018-11-16T11:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.pagelibrary.com.prudential.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
